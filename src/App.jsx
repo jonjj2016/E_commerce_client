@@ -4,7 +4,7 @@ import { Container} from 'react-bootstrap';
 // Mounting Components
 import Footer from './Components/Footer';
 import Header from './Components/Header';
-import HomeScreen from './screens/HomeScreen';
+import HomeScreen from './screens/HomeScreen/';
 import ProductScreen from './screens/ProductScreen';
 
 

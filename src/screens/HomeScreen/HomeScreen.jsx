@@ -1,10 +1,9 @@
 import React from 'react';
 import { Row, Col } from 'react-bootstrap';
-import Product from '../Components/Product';
-import products from '../products';
+import Product from '../../Components/Product';
 
 
-const HomeScreen = () => {
+const HomeScreen = ({products}) => {
   return (
     <>
       <h1>Latest Products</h1>

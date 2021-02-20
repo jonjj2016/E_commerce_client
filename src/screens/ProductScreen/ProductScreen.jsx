@@ -1,13 +1,9 @@
 import React from 'react';
-import { Link ,useParams} from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import { Row, Col, Image, ListGroup, Card, Button } from 'react-bootstrap';
-import Rating from '../Components/Rating';
-import products from '../products';
+import Rating from '../../Components/Rating';
 
-const ProductScreen = () => {
-  const {id} = useParams();
-  const product = products.find(item => item._id == id);
-  console.log(product);
+const ProductScreen = ({product}) => {
 
   return (
     <>
